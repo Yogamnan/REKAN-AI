@@ -1,17 +1,9 @@
-import nvdia from "../assets/image/nvidia.png";
-import kmn from "../assets/image/kemeneterian.png";
-import kominfo from "../assets/image/kominfo.png";
-import ojk from "../assets/image/ojk.png";
-import facebook from "../assets/image/fb.png";
-import x from "../assets/image/twitter.png";
-import instagram from "../assets/image/ig.png";
-import frame from "../assets/image/Component 11.png";
+import { nvdia,kmn,kominfo,ojk,x,instagram,facebook,frame, } from "../assets";
 
- // Gambar logo utama perusahaan
 
 function Footer() {
   return (
-    <footer className="bg-[#D4DAE4] py-10 text-[#212121]">
+    <footer className="bg-customGrey py-10 text-[#212121]">
       {/* Kontainer utama footer */}
       <div className="flex flex-col sm:flex-row sm:flex-wrap justify-between gap-5 mx-5 sm:mx-28 mt-20 text-sm">
         {/* Kolom 1: Logo perusahaan */}
@@ -34,15 +26,15 @@ function Footer() {
               </span>
             </p>
           </div>
-          <p className="mb-4">
+          <p className="mb-10">
             Jl. Anggrek No.6, Sawah Lama, Kec. Ciputat, Kota Tangerang Selatan,
             Banten 15413
           </p>
           <p className="mb-4">Lebih dekat dengan Kami</p>
-          <div className="flex space-x-3">
+          <div className="flex space-x-5">
             {/* Tautan ke media sosial */}
             <a href="#">
-              <img src={instagram} alt="Instagram" className="w-5 h-5" /> {/* Ikon Instagram */}
+              <img src={instagram} alt="Instagram" className="w-5 h-5"  /> {/* Ikon Instagram */}
             </a>
             <a href="#">
               <img src={facebook} alt="Facebook" className="w-5 h-5" /> {/* Ikon Facebook */}

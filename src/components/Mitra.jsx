@@ -1,35 +1,32 @@
 import React, { useState, useEffect } from "react";
-import mitraImg from "../assets/image/Frame 811516 (3).png";
-import arrow1 from "../assets/image/slider/Vector (1).png";
-import arrow2 from "../assets/image/slider/Vector.png";
-import swipper1 from "../assets/image/slider/1.png";
-import swipper2 from "../assets/image/slider/2.png";
-import swipper3 from "../assets/image/slider/3.png";
-import swipper4 from "../assets/image/slider/4.png";
-import swipper5 from "../assets/image/slider/5.png";
-import swipper6 from "../assets/image/slider/6.png";
-import swipper7 from "../assets/image/slider/7.png";
-import swipper8 from "../assets/image/slider/8.png";
-import swipper9 from "../assets/image/slider/9.png";
-import swipper10 from "../assets/image/slider/10.png";
-import swipper11 from "../assets/image/slider/11.png";
-import swipper12 from "../assets/image/slider/12.png";
-import swipper13 from "../assets/image/slider/13.png";
-import swipper14 from "../assets/image/slider/14.png";
-import swipper15 from "../assets/image/slider/15.png";
-import swipper16 from "../assets/image/slider/16.png";
-import swipper17 from "../assets/image/slider/17.png";
-import swipper18 from "../assets/image/slider/18.png";
-import swipper19 from "../assets/image/slider/19.png";
-import swipper20 from "../assets/image/slider/20.png";
-import swipper21 from "../assets/image/slider/21.png";
-import swipper22 from "../assets/image/slider/22.png";
-import swipper23 from "../assets/image/slider/23.png";
-import swipper24 from "../assets/image/slider/24.png";
-
-
-import bgSwiper from "../assets/image/image 16.png";
-
+import {mitraImg} from "../assets";
+import {arrow1} from "../assets";
+import {arrow2} from "../assets";
+import {swipper1} from "../assets";
+import {swipper2} from "../assets";
+import {swipper3} from "../assets";
+import {swipper4} from "../assets";
+import {swipper5} from "../assets";
+import {swipper6} from "../assets";
+import {swipper7} from "../assets";
+import {swipper8} from "../assets";
+import {swipper9} from "../assets";
+import {swipper10} from "../assets";
+import {swipper11} from "../assets";
+import {swipper12} from "../assets";
+import {swipper13} from "../assets";
+import {swipper14} from "../assets";
+import {swipper15} from "../assets";
+import {swipper16} from "../assets";
+import {swipper17} from "../assets";
+import {swipper18} from "../assets";
+import {swipper19} from "../assets";
+import {swipper20} from "../assets";
+import {swipper21} from "../assets";
+import {swipper22} from "../assets";
+import {swipper23} from "../assets";
+import {swipper24} from "../assets";
+import { bgSwiper } from "../assets";
 function Mitra() {
     const items = [
         { id: 1, logo: swipper1, name: "Item 1" },
@@ -92,7 +89,7 @@ function Mitra() {
                 className="bg-cover bg-center h-[986px] flex items-center justify-center"
                 style={{ backgroundImage: `url(${bgSwiper})` }}
             >
-                <div className="bg-gradient-to-b from-white via-[#A1A0F2] to-[#5B59E8] w-[90%] md:w-[1214px] h-[640px] rounded-[36px] flex items-center justify-center relative">
+                <div className="bg-gradient-to-b from-[#e5e4ff] via-[#A1A0F2] to-[#5B59E8] w-[90%] md:w-[1214px] h-[640px] rounded-[36px] flex items-center justify-center relative">
                     <div className="text-white ml-4 md:ml-20 -mt-8 md:-mt-20">
                         <div className="bg-white text-[#DC0168] flex items-center justify-center text-center rounded-[18px] shadow-md w-[90%] md:w-[467px] h-[56px]">
                             <p className="text-sm md:text-lg font-semibold m-0">
@@ -103,7 +100,7 @@ function Mitra() {
                             Bergabunglah bersama Mereka yang telah mempercayai Kami sebagai mitra terbaik dalam memberikan solusi yang efesien.
                         </h1>
                     </div>
-                    <div className="ml-auto -mt-8 mr-4 md:-mt-20 md:mr-16 hidden md:block">
+                    <div className="ml-auto -mt-8 mr-4 md:-mt-20 md:mr-5 hidden md:block">
                         {/* Gambar hanya muncul di tampilan medium ke atas */}
                         <img src={mitraImg} alt="Mitra" className="w-[1745px] h-[402px]" />
                     </div>

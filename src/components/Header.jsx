@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Logo1 from '../assets/image/logo.png';
-import search from '../assets/image/search.png';
-import row from '../assets/image/arrow.png';
+import { Logo1 } from '../assets'
+import {search} from '../assets';
+import {row} from '../assets';
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

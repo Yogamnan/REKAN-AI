@@ -1,6 +1,5 @@
-import homeLogo from '../assets/image/Component 1.png';
-import waIcon from '../assets/image/whatsapp-color_svgrepo.com (1).png';
-import homeImg from '../assets/image/Component 3.png';
+import {homeLogo,waIcon,homeImg} from '../assets';
+
 
 function Hero() {
     return (
@@ -29,7 +28,7 @@ function Hero() {
             </div>
 
             {/* Buttons */}
-            <div className="flex flex-col lg:flex-row mt-8 lg:mt-0 lg:ml-28 gap-6 items-center px-4 lg:px-0">
+            <div className="flex flex-col lg:flex-row mt-8 lg:-mt-11 lg:ml-28 gap-6 items-center px-4 lg:px-0">
                 <button className="w-full lg:w-[270px] h-[70px] btn2 flex items-center justify-center py-3 border-2 border-[#DC0168] rounded-[14px] text-[#DC0168] font-bold text-[18px] lg:text-[20px] cursor-pointer transition-all ease-in-out hover:bg-[#ffffff1a]">
                     <img src={waIcon} alt="WhatsApp Icon" className="mr-2 h-[1.2rem] w-auto" />
                     Konsultasi Gratis

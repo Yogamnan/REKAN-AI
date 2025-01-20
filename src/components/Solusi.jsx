@@ -1,8 +1,5 @@
-import card1 from '../assets/image/rekan hr.png';
-import card2 from '../assets/image/rekan doku.png';
-import card3 from '../assets/image/rekan llm.png';
-import card4 from '../assets/image/rekan veri.png';
-import chek from '../assets/image/cheklist.png';
+import {card1,card2,card3,card4,chek} from '../assets';
+
 
 function Solusi() {
   const cards = [
@@ -32,7 +29,7 @@ function Solusi() {
     <section className="min-h-screen flex flex-col items-center justify-center py-8 bg-customWhite mt-16" id="solusi">
       <div className="text-center mb-16">
         <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-          <h1 className="text-2xl md:text-4xl font-bold">Ragam Solusi Terbaik Dari</h1>
+          <h1 className="text-2xl md:text-4xl font-semibold">Ragam Solusi Terbaik Dari</h1>
           <span className="flex items-center justify-center text-lg md:text-2xl text-customWhite bg-customRed rounded-xl font-bold w-[194px] h-[48px] text-center">
             #Rekan AI
           </span>
@@ -49,7 +46,7 @@ function Solusi() {
             key={index}
             className="bg-customWhite rounded-xl shadow-md p-6 flex flex-col items-center h-[681px] w-[402px]"
           >
-            <img src={card.image} alt={`Card ${index + 1}`} className="w-auto h-auto mb-6" />
+            <img src={card.image} alt={`Card ${index + 1}`} className="w-[130px] h-[170px] md:w-auto md:h-auto xl:w-auto xl:h-auto 2xl:w-auto 2xl:h-auto mb-6" />
             <p className="text-customBlack text-left mt-4 flex-1">{card.description}</p>
             <ul className="text-left space-y-4 mb-8">
               {card.features.map((feature, i) => (

@@ -1,8 +1,4 @@
-import imgLeft from '../assets/image/Component 4.png';
-import chek from '../assets/image/cheklist.png';
-import waIcon from '../assets/image/whatsapp-color_svgrepo.com (1).png';
-import circle1 from '../assets/image/Ellipse 2.png';
-import circle2 from '../assets/image/Ellipse 3.png';
+import {imgLeft,chek2,waIcon,circle1,circle2} from '../assets'
 
 function Kenapa() {
   return (
@@ -34,19 +30,19 @@ function Kenapa() {
           </p>
           <ul className="mt-8 space-y-4 md:space-y-6 text-sm md:text-base text-customBlack font-medium">
             <li className="flex items-center">
-              <img src={chek} alt="Check" className="w-6 h-6 md:w-11 md:h-11 mr-3" />
+              <img src={chek2} alt="Check" className="w-6 h-6 md:w-11 md:h-11 mr-3" />
               Automasi proses untuk mengurangi biaya dan meningkatkan produktivitas.
             </li>
             <li className="flex items-center">
-              <img src={chek} alt="Check" className="w-6 h-6 md:w-11 md:h-11 mr-3" />
+              <img src={chek2} alt="Check" className="w-6 h-6 md:w-11 md:h-11 mr-3" />
               Analisis data real-time untuk pengambilan keputusan yang lebih tepat.
             </li>
             <li className="flex items-center">
-              <img src={chek} alt="Check" className="w-6 h-6 md:w-11 md:h-11 mr-3" />
+              <img src={chek2} alt="Check" className="w-6 h-6 md:w-11 md:h-11 mr-3" />
               Menciptakan interaksi pelanggan yang lebih relevan dan berkesan.
             </li>
             <li className="flex items-center">
-              <img src={chek} alt="Check" className="w-6 h-6 md:w-11 md:h-11 mr-3" />
+              <img src={chek2} alt="Check" className="w-6 h-6 md:w-11 md:h-11 mr-3" />
               Verifikasi dan autentikasi berbasis AI yang memperkuat keamanan data.
             </li>
           </ul>

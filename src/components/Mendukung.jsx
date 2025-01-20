@@ -1,8 +1,5 @@
 import React from 'react';
-import imgLeft2 from '../assets/image/Frame 811531.png';
-import imgLeft1 from '../assets/image/Frame 811530.png';
-import imgLeft3 from '../assets/image/Frame 811533.png';
-import imgRight from '../assets/image/Component 6.png';
+import { imgLeft1,imgLeft2,imgLeft3,imgRight } from '../assets';
 
 function Mendukung() {
   const items = [
