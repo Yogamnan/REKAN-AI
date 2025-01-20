@@ -7,6 +7,7 @@ import Mitra from './components/Mitra'
 import Mendukung from "./components/Mendukung"
 import Footer from "./components/Footer"
 import MasaDepan from "./components/MasaDepan"
+import WhatsAppButton from "./components/WhatsAppButon"
 function App() {
   return (
     <>
@@ -19,7 +20,7 @@ function App() {
         <Mendukung />
         <MasaDepan />
         <Footer />
-
+        <WhatsAppButton />
     </>
 
   )
