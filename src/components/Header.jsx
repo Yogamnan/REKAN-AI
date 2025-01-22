@@ -73,7 +73,7 @@ const Header = () => {
         </ul>
 
         {/* Pencarian */}
-        <div className="relative flex items-center gap-2 w-full sm:w-auto order-2 sm:order-none">
+        <div className="relative flex items-center gap-2 w-full sm:w-auto order-2 sm:order-none md:ml-36">
           <input
             type="text"
             placeholder="Pencarian..."

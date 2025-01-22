@@ -26,15 +26,15 @@ function Solusi() {
   ];
 
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center py-8 bg-customWhite mt-16" id="solusi">
-      <div className="text-center mb-16">
+    <section className="min-h-screen flex flex-col items-center justify-center py-8 bg-customWhite mt-24" id="solusi">
+      <div className="text-center mb-12">
         <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-          <h1 className="text-2xl md:text-4xl font-semibold">Ragam Solusi Terbaik Dari</h1>
+          <h1 className="text-2xl md:text-[32px] font-semibold">Ragam Solusi Terbaik Dari</h1>
           <span className="flex items-center justify-center text-lg md:text-2xl text-customWhite bg-customRed rounded-xl font-bold w-[194px] h-[48px] text-center">
             #Rekan AI
           </span>
         </div>
-        <p className="text-gray-600 mt-4 max-w-[95%] text-center items-center">
+        <p className="text-customBlack md:text-[20px] mt-4 md:max-w-[85%] md:ml-24 text-center items-center">
           Kami menyediakan berbagai produk berbasis AI yang dirancang khusus untuk mendukung bisnis Anda dari berbagai aspek.
         </p>
       </div>
@@ -55,7 +55,7 @@ function Solusi() {
                 </li>
               ))}
             </ul>
-            <button className="w-[355px] h-[62px] bg-white border-2 border-blue-600 text-blue-600 font-semibold py-2 px-4 rounded-full hover:bg-blue-600 hover:text-white transition duration-300">
+            <button className="w-[355px] h-[62px] bg-white border-[1px] shadow-sm shadow-zinc-800 border-blue-600 text-blue-600 font-semibold py-2 px-4 rounded-[18px] hover:bg-blue-600 hover:text-white transition duration-300">
               Selengkapnya <span>&rarr;</span>
             </button>
           </div>

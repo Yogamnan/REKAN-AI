@@ -5,7 +5,7 @@ function Banner() {
         <div
             className="relative flex flex-col items-center justify-center mt-20 w-full h-auto md:h-[692px] bg-cover bg-center text-white text-center"
             style={{
-                backgroundImage: `linear-gradient(to right, rgba(220, 1, 104, 0.4),rgba(91, 89, 232, 1) ), url(${bgcBanner})`,
+                backgroundImage: `linear-gradient(to right, rgba(220, 1, 150, 0.4),rgba(91, 89, 232, 0.9),rgba(91, 89, 232, 1) ), url(${bgcBanner})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
@@ -23,15 +23,15 @@ function Banner() {
             {/* Teks dan tombol */}
             <div className="px-4 mx-auto text-center w-full mt-8 md:mt-0">
                 <div className="text-customWhite max-w-[90%] md:max-w-[45%] mx-auto">
-                    <h1 className="text-xl md:text-[32px] font-semibold text-center">
+                    <h1 className="text-xl md:text-[32px] font-semibold text-center leading-10">
                         Bersama Rekan AI, Wujudkan Masa Depan Bisnis yang Lebih Inovatif dan Kompetitif.
                     </h1>
                 </div>
-                <p className="mt-4 md:mt-16 max-w-[90%] md:max-w-[800px] mx-auto text-gray-200 text-sm md:text-base">
+                <p className="mt-4 md:mt-14 max-w-[90%] md:max-w-[750px] mx-auto text-customWhite text-sm md:text-[20px] md:font-extralight md:leading-7">
                     Dari autentikasi dokumen hingga analisis data dan automasi HR, Rekan AI menawarkan produk-produk cerdas yang siap membantu bisnis Anda tumbuh dan bersaing di pasar yang dinamis.
                 </p>
-                <div className="flex flex-col md:flex-row gap-4 mt-4 md:mt-16 justify-center">
-                    <button className="flex items-center justify-center w-full md:w-[317px] h-[50px] md:h-[70px] rounded-2xl border-2 border-white text-white text-sm md:text-lg font-bold hover:bg-white hover:bg-opacity-10">
+                <div className="flex flex-col md:flex-row gap-4 mt-4 md:mt-20 justify-center">
+                    <button className="flex items-center justify-center w-full md:w-[317px] h-[50px] md:h-[70px] rounded-2xl border-[1px] border-white text-white text-sm md:text-lg font-bold hover:bg-white hover:bg-opacity-10">
                         <img src={waIcon2} alt="WhatsApp Icon" className="mr-2 h-4 md:h-5 w-auto" />
                         Konsultasi Gratis
                     </button>

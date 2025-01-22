@@ -78,7 +78,7 @@ function Mitra() {
     useEffect(() => {
         const interval = setInterval(() => {
             handleNext();
-        }, 7900); // Slider bergerak setiap 4 detik
+        }, 8900); // Slider bergerak setiap 4 detik
 
         return () => clearInterval(interval); // Membersihkan interval saat komponen unmount
     }, [currentIndex]);
@@ -91,7 +91,7 @@ function Mitra() {
             >
                 <div className="bg-gradient-to-b from-[#e5e4ff] via-[#A1A0F2] to-[#5B59E8] w-[90%] md:w-[1214px] h-[640px] rounded-[36px] flex items-center justify-center relative">
                     <div className="text-white ml-4 md:ml-20 -mt-8 md:-mt-20">
-                        <div className="bg-white text-[#DC0168] flex items-center justify-center text-center rounded-[18px] shadow-md w-[90%] md:w-[467px] h-[56px]">
+                        <div className="bg-white text-[#DC0168] flex items-center justify-center text-center rounded-[18px] shadow-md w-[90%] md:w-[510px] h-[56px]">
                             <p className="text-sm md:text-lg font-semibold m-0">
                                 Saatnya Melangkah lebih jauh untuk bisnis Anda!
                             </p>
@@ -107,8 +107,8 @@ function Mitra() {
                 </div>
             </div>
 
-            <section className="flex justify-center 2xl:w-[1516px] w-screen mb-40 -mt-[350px] md:-mt-[292px] mx-auto">
-                <div className="bg-customWhite shadow-lg rounded-[34px] px-4 md:px-8 py-4 flex items-center gap-2 md:gap-4 w-[95%] md:w-[80%] mx-auto z-10 overflow-hidden">
+            <section className="flex justify-center 2xl:w-[1516px] w-screen mb-40 -mt-[350px] md:-mt-[290px] mx-auto">
+                <div className="bg-customWhite shadow-lg rounded-[37px] px-4 md:px-8 py-4 flex items-center gap-2 md:gap-4 w-[95%] md:w-[80%] mx-auto z-10 overflow-hidden">
                     {/* Prev Button (Hidden on Mobile) */}
                     <button onClick={handlePrev} className="hidden md:block">
                         <img src= {arrow1} alt="Previous" className="w-4 h-4 md:w-6 md:h-6" />
@@ -116,14 +116,14 @@ function Mitra() {
                     {/* Carousel Items */}
                     <div className="overflow-hidden flex-1">
                         <div
-                            className="flex transition-transform duration-[10000ms] ease-in-out"
+                            className="flex transition-transform duration-[10500ms] ease-in-out"
                             style={{ transform: `translateX(-${currentIndex * 100}%)` }}
                         >
                             {Array.from(
                                 { length: Math.ceil(items.length / itemsPerSlide) },
                                 (_, slideIndex) => (
                                     <div
-                                        className="flex-shrink-0 w-full grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4"
+                                        className="flex-shrink-0 w-full grid grid-cols-2 md:grid-cols-4 gap-1 md:gap-4"
                                         key={slideIndex}
                                     >
                                         {items

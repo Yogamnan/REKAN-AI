@@ -6,14 +6,14 @@ function MasaDepan() {
       {/* Tagline Section */}
       <div className="mb-5">
         <div className="flex flex-col sm:flex-row items-center justify-center gap-2 p-4">
-          <span className="flex items-center justify-center bg-pink-600 text-white font-semibold text-xl rounded-2xl w-48 h-12">
+          <span className="flex items-center justify-center bg-pink-600 text-white font-semibold text-2xl rounded-2xl w-48 h-12">
             #Rekan AI
           </span>
-          <h1 className="text-2xl sm:text-3xl font-semibold text-black">
+          <h1 className="text-2xl sm:text-[32px] font-semibold text-black">
             Masa Depan Bisnis, Dimulai Hari Ini
           </h1>
         </div>
-        <p className="text-base sm:text-lg text-gray-600 mt-2 leading-relaxed px-4 sm:px-0">
+        <p className="text-base sm:text-xl text-customBlack-600 md:max-w-[80%] md:ml-24 mt-2 leading-relaxed px-4 sm:px-0">
           Bersama Rekan AI, bawa bisnis Anda menuju masa depan yang lebih
           cerdas, efisien, dan kompetitif.
         </p>

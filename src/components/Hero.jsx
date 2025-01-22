@@ -11,7 +11,7 @@ function Hero() {
                 2xl:ml-28 xl:ml-24 items-center">
                 
                 {/* Left Section */}
-                <div className="box text-left px-4 lg:px-0">
+                <div className="box text-left px-4 lg:px-0 md:-ml-6 md:-mt-20">
                     <img className="mb-5 mx-auto lg:mx-0" src={homeLogo} alt="Home Logo" />
                     <h1 className="text-customBlack text-[24px] lg:text-[32px] font-semibold py-4">
                         Ciptakan Pengalaman Pelanggan yang Tak Terlupakan dengan Solusi AI dari Rekan AI.
@@ -28,7 +28,7 @@ function Hero() {
             </div>
 
             {/* Buttons */}
-            <div className="flex flex-col lg:flex-row mt-8 lg:-mt-11 lg:ml-28 gap-6 items-center px-4 lg:px-0">
+            <div className="flex flex-col lg:flex-row mt-8 lg:-mt-28 lg:ml-28 gap-6 items-center px-4 lg:px-0">
                 <button className="w-full lg:w-[270px] h-[70px] btn2 flex items-center justify-center py-3 border-2 border-[#DC0168] rounded-[14px] text-[#DC0168] font-bold text-[18px] lg:text-[20px] cursor-pointer transition-all ease-in-out hover:bg-[#ffffff1a]">
                     <img src={waIcon} alt="WhatsApp Icon" className="mr-2 h-[1.2rem] w-auto" />
                     Konsultasi Gratis

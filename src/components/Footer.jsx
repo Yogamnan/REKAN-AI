@@ -3,7 +3,7 @@ import { nvdia,kmn,kominfo,ojk,x,instagram,facebook,frame, } from "../assets";
 
 function Footer() {
   return (
-    <footer className="bg-customGrey py-10 text-[#212121]">
+    <footer className="bg-customGrey h-[506px] py-10 text-[#212121]">
       {/* Kontainer utama footer */}
       <div className="flex flex-col sm:flex-row sm:flex-wrap justify-between gap-5 mx-5 sm:mx-28 mt-20 text-sm">
         {/* Kolom 1: Logo perusahaan */}
@@ -21,16 +21,16 @@ function Footer() {
             <p>
               <strong className="text-[25px] text-[#5B59E8]">Rekan AI</strong>{" "}
               <br />
-              <span className="text-[#5B59E8] italic">
+              <span className="text-[#5B59E8] italic font-bold">
                 Reimagine Your Business with AI.
               </span>
             </p>
           </div>
-          <p className="mb-10">
+          <p className="mb-10 text-[18px]">
             Jl. Anggrek No.6, Sawah Lama, Kec. Ciputat, Kota Tangerang Selatan,
             Banten 15413
           </p>
-          <p className="mb-4">Lebih dekat dengan Kami</p>
+          <p className="mb-4 text-[18px]">Lebih dekat dengan Kami</p>
           <div className="flex space-x-5">
             {/* Tautan ke media sosial */}
             <a href="#">
@@ -46,9 +46,9 @@ function Footer() {
         </div>
 
         {/* Kolom 3: Produk perusahaan */}
-        <div className="flex-1 mb-5 sm:mb-0 sm:pl-0">
-          <h4 className="text-base font-semibold mb-4">Produk Kami</h4>
-          <ul className="space-y-4">
+        <div className="flex-1 mb-5 sm:mb-0 md:ml-16 sm:pl-0">
+          <h4 className="text-[18px] font-semibold mb-4">Produk Kami</h4>
+          <ul className="space-y-4 text-[18px]">
             <li>Rekan Doku</li> {/* Produk: Dokumen otomatis */}
             <li>Rekan Veri</li> {/* Produk: Verifikasi data */}
             <li>Rekan HR</li> {/* Produk: Manajemen SDM */}
@@ -57,9 +57,9 @@ function Footer() {
         </div>
 
         {/* Kolom 4: Solusi yang ditawarkan */}
-        <div className="flex-1 mb-5 sm:mb-0 sm:pl-0">
-          <h4 className="text-base font-semibold mb-4">Solusi Kami</h4>
-          <ul className="space-y-4">
+        <div className="flex-1 mb-5 md:-mx-28 sm:mb-0 sm:pl-0">
+          <h4 className="text-[18px] font-semibold mb-4">Solusi Kami</h4>
+          <ul className="space-y-4 text-[18px]">
             <li>Personal</li> {/* Solusi untuk individu */}
             <li>UMKM</li> {/* Solusi untuk Usaha Mikro, Kecil, dan Menengah */}
             <li>Corporate Business</li> {/* Solusi untuk perusahaan besar */}
@@ -68,8 +68,8 @@ function Footer() {
 
         {/* Kolom 5: Informasi kontak */}
         <div className="flex-1 mb-5 sm:mb-0 sm:pl-0">
-          <h4 className="text-base font-semibold mb-4">Hubungi Kami</h4>
-          <ul className="space-y-4">
+          <h4 className="text-[18px] font-semibold mb-4">Hubungi Kami</h4>
+          <ul className="space-y-4 text-[18px]">
             <li>Email: support@rekanai.com</li> {/* Email dukungan */}
             <li>Phone: +68452098</li> {/* Nomor telepon */}
             <li>F.A.Q</li> {/* Halaman Pertanyaan yang Sering Diajukan */}

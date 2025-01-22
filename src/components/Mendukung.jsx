@@ -11,7 +11,7 @@ function Mendukung() {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between gap-4 h-auto md:h-screen px-6 md:px-32 py-8 md:py-0" id="solusi2">
   {/* Left Content */}
-  <div className="flex flex-col justify-center w-full md:w-2/5 space-y-8 order-2 md:order-1">
+  <div className="flex flex-col justify-center w-full md:w-[45%] space-y-8 order-2 md:order-1">
     <p className="text-[24px] md:text-[32px] font-semibold text-customBlack text-left md:text-left">
       Solusi Mendukung Bisnis di Setiap Skala Usaha
     </p>
@@ -21,7 +21,7 @@ function Mendukung() {
 
     <div className="flex flex-col md:flex-row justify-center md:justify-between gap-6">
   {items.map((item) => (
-    <div key={item.id} className="flex flex-col items-center w-full md:w-auto">
+    <div key={item.id} className="flex flex-col items-center w-full md:w-auto md:mt-5">
       {/* Image */}
       <img 
         src={item.image} 
