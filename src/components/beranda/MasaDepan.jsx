@@ -1,5 +1,5 @@
 import React from "react";
-import { waIcon } from "../assets";
+import { waIcon } from "../../assets";
 function MasaDepan() {
   return (
     <div className="flex flex-col items-center justify-center text-center w-full h-[65vh] mb-20 -mt-3">
@@ -21,11 +21,11 @@ function MasaDepan() {
 
       {/* Button Section */}
       <div className="flex flex-col sm:flex-row gap-6 sm:gap-12 mt-8">
-        <button className="flex items-center justify-center bg-transparent text-pink-600 border-2 border-pink-600 rounded-[14px] font-medium text-lg sm:text-xl px-8 py-4 hover:bg-pink-50 transition-all duration-300 w-full sm:w-[270px] h-[70px]">
+        <button className="flex items-center justify-center bg-transparent text-pink-600 border-2 border-pink-600 rounded-[14px] font-medium text-lg sm:text-xl  py-4 hover:bg-pink-50 transition-all duration-300 w-full sm:w-[270px] h-[70px]">
           <img
             src={waIcon}
             alt="WhatsApp Icon"
-            className="mr-2 w-5 h-5"
+            className="mr-4 w-5 h-5 md:w-[30px] md:h-[30px]"
           />
           Konsultasi Gratis
         </button>

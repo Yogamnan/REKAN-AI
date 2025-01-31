@@ -1,4 +1,4 @@
-import {imgLeft,chek2,waIcon,circle1,circle2} from '../assets'
+import {imgLeft,chek2,waIcon,circle1,circle2} from '../../assets'
 
 function Kenapa() {
   return (
@@ -20,9 +20,9 @@ function Kenapa() {
         </div>
 
         {/* Text Section */}
-        <div className="w-full md:w-1/2 p-6 md:p-10 flex flex-col items-center md:items-start text-center md:text-left">
+        <div className="w-full md:w-1/2 p-6 md:p-10 flex flex-col items-center md:items-start md:mr-28 text-center md:text-left">
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-800">Kenapa Harus Rekan AI?</h2>
-          <p className="text-customBlack mt-4 text-sm md:max-w-[75%] md:leading-8 md:text-[18px]">
+          <p className="text-customBlack mt-4 text-sm md:max-w-[90%] md:leading-8 md:text-[20px]">
             Rekan AI adalah mitra inovasi bisnis Anda dalam menghadapi era
             digital. Kami menghadirkan teknologi kecerdasan buatan yang dirancang
             untuk meningkatkan efisiensi operasional, mempercepat proses, dan
@@ -48,11 +48,11 @@ function Kenapa() {
           </ul>
 
           <div className="flex flex-col md:flex-row mt-8 md:mt-20 space-y-4 md:space-y-0 md:space-x-10 w-full">
-            <button className="flex items-center justify-center w-full md:w-[270px] h-[50px] md:h-[70px] border-2 border-pink-600 text-pink-700 font-bold rounded-[14px] hover:bg-white hover:bg-opacity-10 transition">
-              <img src={waIcon} alt="WhatsApp Icon" className="mr-2 w-4 h-4 md:w-5 md:h-5" />
+            <button className="flex items-center justify-center w-full md:w-[270px] h-[50px] md:h-[70px] border-2 border-customRed text-customRed md:text-xl font-medium rounded-[14px] hover:bg-white hover:bg-opacity-10 transition">
+              <img src={waIcon} alt="WhatsApp Icon" className="mr-2 w-4 h-4 md:w-[30px] md:h-[30px]" />
               Konsultasi Gratis
             </button>
-            <button className="w-full md:w-[276px] h-[50px] md:h-[70px] bg-gradient-to-r from-pink-700 to-indigo-600 text-white font-bold rounded-[14px] hover:opacity-90 transition">
+            <button className="w-full md:w-[276px] h-[50px] md:h-[70px] bg-gradient-to-r from-pink-700 to-indigo-600 text-white md:text-xl font-medium rounded-[14px] hover:opacity-90 transition">
               Coba Sekarang
             </button>
           </div>

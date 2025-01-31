@@ -1,4 +1,4 @@
-import WaButtons from '../assets/image/Whatsapp.png';
+import WaButtons from '../../assets/image/Whatsapp.png';
 
 const WhatsAppButton = () => {
   return (

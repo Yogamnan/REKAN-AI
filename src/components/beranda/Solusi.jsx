@@ -1,4 +1,4 @@
-import {card1,card2,card3,card4,chek} from '../assets';
+import {card1,card2,card3,card4,chek,} from '../../assets';
 
 
 function Solusi() {
@@ -30,7 +30,7 @@ function Solusi() {
       <div className="text-center mb-12">
         <div className="flex flex-col md:flex-row items-center justify-center gap-4">
           <h1 className="text-2xl md:text-[32px] font-semibold">Ragam Solusi Terbaik Dari</h1>
-          <span className="flex items-center justify-center text-lg md:text-2xl text-customWhite bg-customRed rounded-xl font-bold w-[194px] h-[48px] text-center">
+          <span className="flex items-center justify-center text-lg md:text-2xl text-customWhite bg-customRed rounded-[19px] font-bold w-[194px] h-[48px] text-center">
             #Rekan AI
           </span>
         </div>
@@ -44,7 +44,7 @@ function Solusi() {
         {cards.map((card, index) => (
           <div
             key={index}
-            className="bg-customWhite rounded-xl shadow-md p-6 flex flex-col items-center h-[681px] w-[402px]"
+            className="bg-customWhite rounded-xl border p-6 flex flex-col items-center h-[681px] w-[402px]"
           >
             <img src={card.image} alt={`Card ${index + 1}`} className="w-[130px] h-[170px] md:w-auto md:h-auto xl:w-auto xl:h-auto 2xl:w-auto 2xl:h-auto mb-6" />
             <p className="text-customBlack text-left mt-4 flex-1">{card.description}</p>
@@ -55,7 +55,7 @@ function Solusi() {
                 </li>
               ))}
             </ul>
-            <button className="w-[355px] h-[62px] bg-white border-[1px] shadow-sm shadow-zinc-800 border-blue-600 text-blue-600 font-semibold py-2 px-4 rounded-[18px] hover:bg-blue-600 hover:text-white transition duration-300">
+            <button className="w-[355px] h-[62px] bg-white border-[1px] shadow-sm shadow-zinc-800 border-blue-600 text-customBlue font-medium py-2 px-4 rounded-[18px] hover:bg-blue-600 hover:text-white transition duration-300">
               Selengkapnya <span>&rarr;</span>
             </button>
           </div>

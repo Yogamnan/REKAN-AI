@@ -1,9 +1,9 @@
-import {homeLogo,waIcon,homeImg} from '../assets';
+import {homeLogo,waIcon,homeImg} from '../../assets';
 
 
 function Hero() {
     return (
-        <div className="container py-0 px-0" id="Hero">
+        <div className="container py-0 px-0" id="Home">
             <div className="
                 hero 
                 grid grid-cols-1 lg:grid-cols-2 gap-10 
@@ -30,7 +30,7 @@ function Hero() {
             {/* Buttons */}
             <div className="flex flex-col lg:flex-row mt-8 lg:-mt-28 lg:ml-28 gap-6 items-center px-4 lg:px-0">
                 <button className="w-full lg:w-[270px] h-[70px] btn2 flex items-center justify-center py-3 border-2 border-[#DC0168] rounded-[14px] text-[#DC0168] font-bold text-[18px] lg:text-[20px] cursor-pointer transition-all ease-in-out hover:bg-[#ffffff1a]">
-                    <img src={waIcon} alt="WhatsApp Icon" className="mr-2 h-[1.2rem] w-auto" />
+                    <img src={waIcon} alt="WhatsApp Icon" className="mr-2 h-[30px] w-[30px]" />
                     Konsultasi Gratis
                 </button>
                 <button className="w-full lg:w-[276px] h-[70px] btn2 flex items-center justify-center py-3 px-8 rounded-[14px] bg-gradient-to-r from-[#DC0168] to-[#5B59E8] text-white font-bold text-[18px] lg:text-[20px] cursor-pointer transition-all ease-in-out hover:opacity-90">

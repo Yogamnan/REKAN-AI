@@ -1,11 +1,11 @@
-import {waIcon2,L1,L2,L3,L4,R1,R2,R3,R4,bgcBanner} from '../assets';
+import {waIcon2,L1,L2,L3,L4,R1,R2,R3,R4,bgcBanner} from '../../assets/';
 
 function Banner() {
     return (
         <div
             className="relative flex flex-col items-center justify-center mt-20 w-full h-auto md:h-[692px] bg-cover bg-center text-white text-center"
             style={{
-                backgroundImage: `linear-gradient(to right, rgba(220, 1, 150, 0.4),rgba(91, 89, 232, 0.9),rgba(91, 89, 232, 1) ), url(${bgcBanner})`,
+                backgroundImage: ` linear-gradient(248.72deg, #5B59E0 50.11%, rgba(202, 43, 104, 0.4) 90%), url(${bgcBanner})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
@@ -32,7 +32,7 @@ function Banner() {
                 </p>
                 <div className="flex flex-col md:flex-row gap-4 mt-4 md:mt-20 justify-center">
                     <button className="flex items-center justify-center w-full md:w-[317px] h-[50px] md:h-[70px] rounded-2xl border-[1px] border-white text-white text-sm md:text-lg font-bold hover:bg-white hover:bg-opacity-10">
-                        <img src={waIcon2} alt="WhatsApp Icon" className="mr-2 h-4 md:h-5 w-auto" />
+                        <img src={waIcon2} alt="WhatsApp Icon" className="mr-2 h-4 md:h-[30px] md:w-[30px] w-auto" />
                         Konsultasi Gratis
                     </button>
                     <button className="flex items-center justify-center w-full md:w-[324px] h-[50px] md:h-[70px] rounded-2xl px-4 md:px-8 py-2 md:py-3 border-[1px] border-white bg-gradient-to-r from-[#dc0168] to-[#5b59e8] text-white text-sm md:text-lg font-bold hover:opacity-90">

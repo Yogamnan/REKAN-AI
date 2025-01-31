@@ -1,5 +1,5 @@
 import React from 'react';
-import { imgLeft1,imgLeft2,imgLeft3,imgRight } from '../assets';
+import { imgLeft1,imgLeft2,imgLeft3,imgRight } from '../../assets';
 
 function Mendukung() {
   const items = [
@@ -13,7 +13,9 @@ function Mendukung() {
   {/* Left Content */}
   <div className="flex flex-col justify-center w-full md:w-[45%] space-y-8 order-2 md:order-1">
     <p className="text-[24px] md:text-[32px] font-semibold text-customBlack text-left md:text-left">
-      Solusi Mendukung Bisnis di Setiap Skala Usaha
+      Solusi Mendukung Bisnis di Setiap
+      <br />
+       Skala Usaha
     </p>
     <p className="text-[16px] md:text-[20px] font-normal text-customBlack text-left md:text-left">
       Kami menawarkan berbagai teknologi AI yang dapat mengotomatisasi proses, menganalisis data dengan akurat, dan memberikan pengalaman pelanggan yang lebih personal. Dengan implementasi yang mudah dan hasil yang cepat, Rekan AI menjadi mitra terbaik untuk mendukung pertumbuhan bisnis Anda.

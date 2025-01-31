@@ -1,6 +1,7 @@
 import Logo1 from './image/logo.png'
 import search from './image/search.png';
 import row from './image/arrow.png';
+import row2 from './image/vector.png';
 import homeLogo from './image/Component 1.png';
 import waIcon from './image/whatsapp-color_svgrepo.com (1).png';
 import homeImg from './image/Component 3.png';
@@ -69,7 +70,7 @@ import frame from "./image/Component 11.png";
 
 
 export{
-    Logo1, search,row,homeLogo,waIcon,homeImg,card1,card2,card3,card4,chek,
+    Logo1, search,row,row2,homeLogo,waIcon,homeImg,card1,card2,card3,card4,chek,
     waIcon2,L1,L2,L3,L4,R1,R2,R3,R4,bgcBanner,imgLeft,chek2,circle1,circle2,
     mitraImg,arrow1,arrow2,swipper1,swipper2,swipper3,swipper4,swipper5,swipper6,
     swipper7,swipper8,swipper9,swipper10,swipper11,swipper12,swipper13,swipper14,

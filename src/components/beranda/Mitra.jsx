@@ -1,58 +1,58 @@
 import React, { useState, useEffect } from "react";
-import {mitraImg} from "../assets";
-import {arrow1} from "../assets";
-import {arrow2} from "../assets";
-import {swipper1} from "../assets";
-import {swipper2} from "../assets";
-import {swipper3} from "../assets";
-import {swipper4} from "../assets";
-import {swipper5} from "../assets";
-import {swipper6} from "../assets";
-import {swipper7} from "../assets";
-import {swipper8} from "../assets";
-import {swipper9} from "../assets";
-import {swipper10} from "../assets";
-import {swipper11} from "../assets";
-import {swipper12} from "../assets";
-import {swipper13} from "../assets";
-import {swipper14} from "../assets";
-import {swipper15} from "../assets";
-import {swipper16} from "../assets";
-import {swipper17} from "../assets";
-import {swipper18} from "../assets";
-import {swipper19} from "../assets";
-import {swipper20} from "../assets";
-import {swipper21} from "../assets";
-import {swipper22} from "../assets";
-import {swipper23} from "../assets";
-import {swipper24} from "../assets";
-import { bgSwiper } from "../assets";
+import {mitraImg} from "../../assets";
+import {arrow1} from "../../assets";
+import {arrow2} from "../../assets";
+import {swipper1} from "../../assets";
+import {swipper2} from "../../assets";
+import {swipper3} from "../../assets";
+import {swipper4} from "../../assets";
+import {swipper5} from "../../assets";
+import {swipper6} from "../../assets";
+import {swipper7} from "../../assets";
+import {swipper8} from "../../assets";
+import {swipper9} from "../../assets";
+import {swipper10} from "../../assets";
+import {swipper11} from "../../assets";
+import {swipper12} from "../../assets";
+import {swipper13} from "../../assets";
+import {swipper14} from "../../assets";
+import {swipper15} from "../../assets";
+import {swipper16} from "../../assets";
+import {swipper17} from "../../assets";
+import {swipper18} from "../../assets";
+import {swipper19} from "../../assets";
+import {swipper20} from "../../assets";
+import {swipper21} from "../../assets";
+import {swipper22} from "../../assets";
+import {swipper23} from "../../assets";
+import {swipper24} from "../../assets";
+import { bgSwiper } from "../../assets";
 function Mitra() {
     const items = [
         { id: 1, logo: swipper1, name: "Item 1" },
         { id: 2, logo: swipper2, name: "Item 2" },
         { id: 3, logo: swipper3, name: "Item 3" },
         { id: 4, logo: swipper4, name: "Item 4" },
-        { id: 5, logo: swipper5, name: "Item 5" },
+        { id: 5, logo: swipper11, name: "Item 5" },
         { id: 6, logo: swipper6, name: "Item 6" },
         { id: 7, logo: swipper7, name: "Item 7" },
         { id: 8, logo: swipper8, name: "Item 8" },
         { id: 9, logo: swipper9, name: "Item 9" },
         { id: 10, logo: swipper10, name: "Item 10" },
-        { id: 11, logo: swipper11, name: "Item 11" },
+        { id: 11, logo: swipper13, name: "Item 11" },
         { id: 12, logo: swipper12, name: "Item 12" },
-        { id: 13, logo: swipper13, name: "Item 13" },
-        { id: 14, logo: swipper14, name: "Item 14" },
+        { id: 13, logo: swipper5, name: "Item 13" },
+        { id: 14, logo: swipper16, name: "Item 14" },
         { id: 15, logo: swipper15, name: "Item 15" },
-        { id: 16, logo: swipper16, name: "Item 16" },
-        { id: 17, logo: swipper17, name: "Item 17" },
+        { id: 16, logo: swipper17, name: "Item 16" },
+        { id: 17, logo: swipper24, name: "Item 17" },
         { id: 18, logo: swipper18, name: "Item 18" },
         { id: 19, logo: swipper19, name: "Item 19" },
         { id: 20, logo: swipper20, name: "Item 20" },
         { id: 21, logo: swipper21, name: "Item 21" },
         { id: 22, logo: swipper22, name: "Item 22" },
         { id: 23, logo: swipper23, name: "Item 23" },
-        { id: 24, logo: swipper24, name: "Item 24" },
+        { id: 24, logo: swipper14, name: "Item 24" },
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
