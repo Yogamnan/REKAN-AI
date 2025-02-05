@@ -1,31 +1,31 @@
 import React, { useState, useEffect } from "react";
-import {mitraImg} from "../../assets";
-import {arrow1} from "../../assets";
-import {arrow2} from "../../assets";
-import {swipper1} from "../../assets";
-import {swipper2} from "../../assets";
-import {swipper3} from "../../assets";
-import {swipper4} from "../../assets";
-import {swipper5} from "../../assets";
-import {swipper6} from "../../assets";
-import {swipper7} from "../../assets";
-import {swipper8} from "../../assets";
-import {swipper9} from "../../assets";
-import {swipper10} from "../../assets";
-import {swipper11} from "../../assets";
-import {swipper12} from "../../assets";
-import {swipper13} from "../../assets";
-import {swipper14} from "../../assets";
-import {swipper15} from "../../assets";
-import {swipper16} from "../../assets";
-import {swipper17} from "../../assets";
-import {swipper18} from "../../assets";
-import {swipper19} from "../../assets";
-import {swipper20} from "../../assets";
-import {swipper21} from "../../assets";
-import {swipper22} from "../../assets";
-import {swipper23} from "../../assets";
-import {swipper24} from "../../assets";
+import { mitraImg } from "../../assets";
+import { arrow1 } from "../../assets";
+import { arrow2 } from "../../assets";
+import { swipper1 } from "../../assets";
+import { swipper2 } from "../../assets";
+import { swipper3 } from "../../assets";
+import { swipper4 } from "../../assets";
+import { swipper5 } from "../../assets";
+import { swipper6 } from "../../assets";
+import { swipper7 } from "../../assets";
+import { swipper8 } from "../../assets";
+import { swipper9 } from "../../assets";
+import { swipper10 } from "../../assets";
+import { swipper11 } from "../../assets";
+import { swipper12 } from "../../assets";
+import { swipper13 } from "../../assets";
+import { swipper14 } from "../../assets";
+import { swipper15 } from "../../assets";
+import { swipper16 } from "../../assets";
+import { swipper17 } from "../../assets";
+import { swipper18 } from "../../assets";
+import { swipper19 } from "../../assets";
+import { swipper20 } from "../../assets";
+import { swipper21 } from "../../assets";
+import { swipper22 } from "../../assets";
+import { swipper23 } from "../../assets";
+import { swipper24 } from "../../assets";
 import { bgSwiper } from "../../assets";
 function Mitra() {
     const items = [
@@ -111,7 +111,7 @@ function Mitra() {
                 <div className="bg-customWhite shadow-lg rounded-[37px] px-4 md:px-8 py-4 flex items-center gap-2 md:gap-4 w-[95%] md:w-[80%] mx-auto z-10 overflow-hidden">
                     {/* Prev Button (Hidden on Mobile) */}
                     <button onClick={handlePrev} className="hidden md:block">
-                        <img src= {arrow1} alt="Previous" className="w-4 h-4 md:w-6 md:h-6" />
+                        <img src={arrow1} alt="Previous" className="w-4 h-4 md:w-6 md:h-6" />
                     </button>
                     {/* Carousel Items */}
                     <div className="overflow-hidden flex-1">
@@ -129,10 +129,14 @@ function Mitra() {
                                         {items
                                             .slice(slideIndex * itemsPerSlide, (slideIndex + 1) * itemsPerSlide)
                                             .map((item) => (
-                                                <div className="flex flex-col items-center" key={item.id}>
-                                                    <img src={item.logo} alt={item.name} className="w-auto h-auto" />
+                                                <div
+                                                    className="flex flex-col items-center justify-center h-[85px]" // Tambahkan justify-center dan atur tinggi
+                                                    key={item.id}
+                                                >
+                                                    <img src={item.logo} alt={item.name} className="max-h-full" /> {/* Gunakan max-h-full agar gambar mengikuti tinggi parent */}
                                                 </div>
                                             ))}
+
                                     </div>
                                 )
                             )}

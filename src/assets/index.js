@@ -1,5 +1,8 @@
 import Logo1 from './image/logo.png'
 import search from './image/search.png';
+import IconPersonal from './image/Frame 18.png';
+import IconStartup from './image/Frame 18 (1).png';
+import IconCorporate from './image/Frame 18 (2).png'
 import row from './image/arrow.png';
 import row2 from './image/vector.png';
 import homeLogo from './image/Component 1.png';
@@ -76,5 +79,5 @@ export{
     swipper7,swipper8,swipper9,swipper10,swipper11,swipper12,swipper13,swipper14,
     swipper15,swipper16,swipper17,swipper18,swipper19,swipper20,swipper21,swipper22,
     swipper23,swipper24,bgSwiper,imgLeft1,imgLeft2,imgLeft3,imgRight,nvdia,kmn,kominfo,
-    ojk,facebook,x,instagram,frame
+    ojk,facebook,x,instagram,frame,IconPersonal,IconStartup,IconCorporate
 }

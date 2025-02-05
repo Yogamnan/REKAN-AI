@@ -2,11 +2,9 @@ import { email, phone, customer } from "./asset";
 
 const CustomerService = () => {
     return (
-        <section className="main-container mt-[180px] mb-16 md:mt-20 flex flex-col md:flex-row justify-between items-center px-5 py-10 max-w-7xl mx-auto gap-10 md:mb-[150px] 2xl:px-20 2xl:gap-20">
-            {/* Container utama */}
-
-            <div className="w-full md:w-[773px] 2xl:w-[900px] h-auto gap-[29px] text-left">
-                {/* Teks dan informasi */}
+        <section className="main-container mt-[180px] mb-16 md:mt-20 flex flex-col md:flex-row items-center px-5 py-10 max-w-7xl mx-auto md:mb-[150px] 2xl:px-20 2xl:gap-20">
+            {/* LEFT SECTION - Informasi */}
+            <div className="w-full md:w-[650px] 2xl:w-[750px] h-auto gap-[29px] text-left pl-10 md:-pl-24">
                 <div className="mb-5">
                     <h2 className="text-[#212121] text-[28px] md:text-[32px] font-[550] leading-[36px] md:leading-[48px] 2xl:leading-[52px]">
                         Kami Siap Membantu Bisnis{" "}
@@ -35,7 +33,6 @@ const CustomerService = () => {
                                 </strong>{" "}
                                 dan tim kami akan segera merespons.
                             </p>
-                            
                         </div>
                     </div>
                     <div className="flex items-start gap-6">
@@ -58,8 +55,9 @@ const CustomerService = () => {
                     </div>
                 </div>
             </div>
-            {/*RIGHT SECTION */}
-            <div className="flex-1 flex justify-center items-center">
+
+            {/* RIGHT SECTION - Gambar */}
+            <div className="flex-1 flex justify-end items-center pr-10 md:pr-0">
                 <img
                     src={customer}
                     alt="Customer Service"

@@ -28,7 +28,7 @@ const BottomCTA = () => {
         {/* Tombol Konsultasi Gratis dengan ikon WhatsApp */}
         <button className="w-full lg:w-[270px] h-[70px] btn2 flex items-center justify-center py-3 border-2 border-[#DC0168] rounded-[14px] text-[#DC0168] text-[20px] lg:text-[20px] cursor-pointer transition-all ease-in-out hover:bg-[#ffffff1a]">
           {/* Gambar WhatsApp di kiri tombol */}
-          <img src={wagreen} alt="WhatsApp Icon" className="mr-2 h-[1.2rem] w-auto" />
+          <img src={wagreen} alt="WhatsApp Icon" className="mr-2 h-[30px] w-[30px]" />
           Konsultasi Gratis
         </button>
 
