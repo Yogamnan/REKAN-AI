@@ -2,21 +2,20 @@ import { email, phone, customer } from "./asset";
 
 const CustomerService = () => {
     return (
-        <section className="main-container mt-[180px] mb-16 md:mt-20 flex flex-col md:flex-row items-center px-5 py-10 max-w-7xl mx-auto md:mb-[150px] 2xl:px-20 2xl:gap-20">
+        <section className="main-container mt-[180px] mb-16 md:mb-0 md:mt-20 flex flex-col md:flex-row items-center px-5 py-10 max-w-7xl mx-auto md:mb-[150px] 2xl:px-20 2xl:gap-20">
             {/* LEFT SECTION - Informasi */}
-            <div className="w-full md:w-[650px] 2xl:w-[750px] h-auto gap-[29px] text-left pl-10 md:-pl-24">
+            <div className="w-full md:w-[650px] 2xl:w-[750px] h-auto gap-[29px] text-left pl-10 md:ml-[-200px]">
                 <div className="mb-5">
                     <h2 className="text-[#212121] text-[28px] md:text-[32px] font-[550] leading-[36px] md:leading-[48px] 2xl:leading-[52px]">
-                        Kami Siap Membantu Bisnis{" "}
+                        Kami Siap Membantu Bisnis Anda{" "}
                         <span className="hidden lg:inline">
                             <br />
                         </span>{" "}
-                        Anda Lebih Maju!
+                         Lebih Maju!
                     </h2>
                 </div>
-                <p className="text-[#212121] leading-relaxed mb-6 text-[16px] md:text-[20px]">
-                    Butuh informasi lebih lanjut tentang produk atau solusi kami? Tim Rekan AI siap menjawab pertanyaan Anda dengan cepat dan
-                    profesional.
+                <p className="text-[#212121] leading-relaxed mb-6 text-[16px] md:text-[20px] md:max-w-[90%]">
+                    Butuh informasi lebih lanjut tentang produk atau solusi kami? Tim Rekan AI siap menjawab pertanyaan Anda dengan cepat dan profesional.
                 </p>
                 <div className="flex flex-col gap-6">
                     <div className="flex items-start gap-6">
@@ -57,11 +56,11 @@ const CustomerService = () => {
             </div>
 
             {/* RIGHT SECTION - Gambar */}
-            <div className="flex-1 flex justify-end items-center pr-10 md:pr-0">
+            <div className="flex-1 flex justify-end items-center pr-10 md:mr-[-200px]">
                 <img
                     src={customer}
                     alt="Customer Service"
-                    className="w-full md:w-[400px] lg:w-[500px] 2xl:w-[600px] max-w-xs sm:max-w-sm md:max-w-md h-auto object-contain"
+                    className="w-auto h-auto "
                 />
             </div>
         </section>

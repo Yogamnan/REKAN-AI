@@ -55,7 +55,7 @@ const Header = () => {
             </button>
             {isSolusiOpen && (
               <ul
-                className="absolute left-[-550px] top-12 w-screen h-[173px] bg-customRed text-black list-none py-4 shadow-lg z-50 gap-10 px-10 flex flex-row justify-center items-center"
+                className="absolute md:left-[-550px] top-12 w-screen h-[173px] bg-customRed text-black list-none py-4 shadow-lg z-50 gap-10 px-10 flex flex-row justify-center items-center"
               >
                 <div className="flex flex-row justify-center items-center gap-10 mr-96">
                   {/* Personal */}
